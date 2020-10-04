@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(58, 72, 102);
+  font-family: 'Montserrat', sans-serif;
+}
+#meme-image-container {
+  border: 1px black solid;
+  background-color: white;
+  width: 500px;
+  max-height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  overflow: hidden;
+}
+
+#meme-image {
+  width: 100%;
+}
+
+#meme-text {
+  position: absolute;
+  width: 88%;
+  text-align: start;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  padding: 0;
+  margin-top: 400px;
+}
+
+.text {
+  color: rgb(58, 72, 102);
+  font-weight: 700;
+}
+
+
+.content-input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-insert {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.content-text {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.tools-container {
+  margin-top: 10px;
+  width: 260px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tools {
+  border: 2px solid;
+  border-color: white;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+}
+
+.tools:hover {
+  border: 3px solid;
+  border-color: rgb(123, 190, 34);
+}
+
+#start-text {
+  background-color: white;
+  background-image: url(/minha-colecao-de-icones/svg/left.svg);
+  background-size: contain;
+}
+
+
+#top-text {
+  background-image: url(/minha-colecao-de-icones/svg/texto-top.jpeg);
+  background-size: contain;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#center-text-column {
+  background-image: url(/minha-colecao-de-icones/svg/texto-center.jpeg);
+  background-size: contain;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bottom-text {
+  background-image: url(/minha-colecao-de-icones/svg/bottom-text.jpeg);
+  background-size: contain;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#center-text-row {
+  background-color: white;
+  background-image: url(/minha-colecao-de-icones/svg/center.svg);
+  background-size: contain;
+}
+
+#end-text {
+  background-color: white;
+  background-image: url(/minha-colecao-de-icones/svg/right.svg);
+  background-size: contain;
+}
+
+#text-input {
+  border: 2px solid;
+  border-color: rgb(58, 72, 102);
+  border-radius: 4px;
+}
+
+header {
+  background-color:	rgb(123, 190, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  border-radius: 8px;
+  height: 70px;
+}
+
+h1 {
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .content-insert {
+    margin-top: 15px;
+  }
+}
