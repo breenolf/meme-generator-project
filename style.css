@@ -87,13 +87,13 @@ body {
 
 #start-text {
   background-color: white;
-  background-image: url(/minha-colecao-de-icones/svg/left.svg);
+  background-image: url(minha-colecao-de-icones/svg/left.svg);
   background-size: contain;
 }
 
 
 #top-text {
-  background-image: url(/minha-colecao-de-icones/svg/texto-top.jpeg);
+  background-image: url(minha-colecao-de-icones/svg/texto-top.jpeg);
   background-size: contain;
   font-size: 2rem;
   display: flex;
@@ -102,7 +102,7 @@ body {
 }
 
 #center-text-column {
-  background-image: url(/minha-colecao-de-icones/svg/texto-center.jpeg);
+  background-image: url(minha-colecao-de-icones/svg/texto-center.jpeg);
   background-size: contain;
   font-size: 2rem;
   display: flex;
@@ -111,7 +111,7 @@ body {
 }
 
 #bottom-text {
-  background-image: url(/minha-colecao-de-icones/svg/bottom-text.jpeg);
+  background-image: url(minha-colecao-de-icones/svg/bottom-text.jpeg);
   background-size: contain;
   font-size: 2rem;
   display: flex;
@@ -121,13 +121,13 @@ body {
 
 #center-text-row {
   background-color: white;
-  background-image: url(/minha-colecao-de-icones/svg/center.svg);
+  background-image: url(minha-colecao-de-icones/svg/center.svg);
   background-size: contain;
 }
 
 #end-text {
   background-color: white;
-  background-image: url(/minha-colecao-de-icones/svg/right.svg);
+  background-image: url(minha-colecao-de-icones/svg/right.svg);
   background-size: contain;
 }
 
